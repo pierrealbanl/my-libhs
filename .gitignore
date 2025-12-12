@@ -1,0 +1,16 @@
+# Root .gitignore (this file is versioned)
+
+# IDE configs
+.idea/
+.vscode/
+*.swp
+
+# macOS system files
+*.DS_Store
+
+# Object and interface files
+*.o
+*.hi
+
+# Executable binaries (compiled output)
+*.exe
