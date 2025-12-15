@@ -15,7 +15,7 @@ second (x, y) = y
 
 unzip' :: [(a, b)] -> ([a], [b])
 unzip' [] = ([], [])
-unzip' ((x, y) : xs) =
-  (x : first (unzip' xs), y : second (unzip' xs))
+unzip' ((x', y') : xs) =
+  (x' : first (unzip' xs), y' : second (unzip' xs))
 
 -- You can try it out with this main function: main = print (unzip' [(5, 10), (15, 20)])
